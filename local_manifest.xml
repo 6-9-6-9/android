@@ -2,34 +2,26 @@
 <manifest>
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_bionic" />
-  <remove-project name="CyanogenMod/android_build" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
 
   <!-- OpenDesireProject -->
-  <project path="bionic" name="OpenDesireProject/android_bionic" revision="cm-13.0" />
-  <project path="build" name="OpenDesireProject/android_build" revision="cm-13.0">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r36" />
   <project path="frameworks/opt/telephony" name="OpenDesireProject/android_frameworks_opt_telephony" revision="cm-13.0" />
   <project path="hardware/qcom/audio-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_audio-legacy" revision="cm-13.0-legacy-msm7x30" />
   <project path="hardware/qcom/display-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_display-legacy" revision="cm-13.0-caf-7x30" />
   <project path="hardware/qcom/media-caf/msm7x30" name="OpenDesireProject/android_hardware_qcom_media-legacy" revision="cm-13.0-legacy-msm7x30" />
   <project path="kernel/htc/msm7x30" name="OpenDesireProject/android_kernel_htc_msm7x30" revision="cm-13.0" />
-  <project path="local_manifest" name="OpenDesireProject/android" revision="cm-13.0" />
+  <project path="local_manifest" name="6-9-6-9/android" revision="cm-14.0" />
   <project path="packages/apps/ODPUpdater" name="OpenDesireProject/android_packages_apps_ODPUpdater" revision="cm-13.0" />
   <project path="packages/apps/ProximityRecalibrator" name="OpenDesireProject/android_packages_apps_ProximityRecalibrator" revision="cm-13.0" />
 
   <!-- Ace -->
-  <project path="device/htc/aceopt" name="OpenDesireProject/android_device_htc_aceopt" revision="cm-13.0" />
+  <project path="device/htc/aceopt" name="OpenDesireProject/android_device_htc_aceopt" revision="cm-14.1" />
 
   <!-- Saga -->
-  <project path="device/htc/sagaopt" name="OpenDesireProject/android_device_htc_sagaopt" revision="cm-13.0" />
+  <project path="device/htc/sagaopt" name="OpenDesireProject/android_device_htc_sagaopt" revision="cm-14.1" />
 
   <!-- Common -->
-  <project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" revision="cm-13.0" />
+  <project path="device/htc/msm7x30-common" name="OpenDesireProject/android_device_htc_msm7x30-common" revision="cm-14.1" />
   <project path="vendor/htc" name="OpenDesireProject/proprietary_vendor_htc" revision="cm-13.0" />
 
 </manifest>

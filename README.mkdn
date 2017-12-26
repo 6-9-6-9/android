@@ -9,9 +9,9 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+    repo init -u git://github.com/CyanogenMod/android.git -b cm-14.0
     mkdir -p .repo/local_manifests
-    wget https://github.com/OpenDesireProject/android/raw/cm-13.0/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
+    wget https://github.com/6-9-6-9/android/raw/cm-14.0/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
 
 Then to sync up:
 
