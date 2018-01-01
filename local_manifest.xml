@@ -3,6 +3,7 @@
 
 
   <project path="device/telechips/tcc8902gb" name="naobsd/cm_device_telechips_tcc8902gb" revision="master" />
+  <project path="packages/apps/TSCalibration" name="CyanogenMod/android_packages_apps_TSCalibration" revision="froyo-stable" />
 
   <!-- Common -->
   <project path="device/telechips/common" name="naobsd/cm_device_telechips_common" revision="master" />
